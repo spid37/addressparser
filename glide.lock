@@ -1,0 +1,14 @@
+hash: d1dbe3d47fffa8fd13d31af3065bc4210c7304665977d6e5c0408dbc8cb0bdcb
+updated: 2017-01-18T08:21:39.966304696+11:00
+imports:
+- name: github.com/pkg/errors
+  version: 645ef00459ed84a119197bfb8d8205042c6df63d
+- name: github.com/renstrom/fuzzysearch
+  version: d4ca9dfccd55dc6b076f9880d49c35315922c1f4
+  subpackages:
+  - fuzzy
+testImports:
+- name: github.com/davecgh/go-spew
+  version: 346938d642f2ec3594ed81d874461961cd0faa76
+  subpackages:
+  - spew
